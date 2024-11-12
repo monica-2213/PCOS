@@ -61,15 +61,16 @@ if st.button('Check PCOS Risk'):
         st.write('- Metformin to regulate insulin levels')
         st.write('- Spironolactone to reduce acne and excess hair growth')
         st.write('- Clomiphene citrate to induce ovulation')
+
+        # Lifestyle change recommendations
+        st.markdown("<h3 style='color: #8A2BE2;'>Lifestyle Changes to Manage PCOS:</h3>", unsafe_allow_html=True)
+        st.write('- Eating a healthy, balanced diet')
+        st.write('- Engaging in regular physical activity')
+        st.write('- Maintaining a healthy weight')
+        st.write('- Managing stress levels')
+        
     else:
         st.markdown("<p style='color: #006400;'>Based on your responses, it is unlikely that you have PCOS. However, we recommend speaking with your doctor if you have concerns about your menstrual cycle or other symptoms.</p>", unsafe_allow_html=True)
-
-# Lifestyle change recommendations
-st.markdown("<h3 style='color: #8A2BE2;'>Lifestyle Changes to Manage PCOS:</h3>", unsafe_allow_html=True)
-st.write('- Eating a healthy, balanced diet')
-st.write('- Engaging in regular physical activity')
-st.write('- Maintaining a healthy weight')
-st.write('- Managing stress levels')
 
 # Disclaimer
 st.markdown("<p style='color: #808080;'>This PCOS Diagnosis and Treatment Recommendation System is designed to provide preliminary insights and is not a substitute for professional medical advice and evaluation.</p>", unsafe_allow_html=True)
