@@ -60,13 +60,12 @@ if st.button('Check PCOS Risk'):
         st.write('- Clomiphene citrate to induce ovulation')
     else:
         st.write('Based on your responses, it is unlikely that you have PCOS. However, we recommend speaking with your doctor if you have concerns about your menstrual cycle or other symptoms.')
-
-# Lifestyle change recommendations
-st.write('In addition to medical treatments, lifestyle changes may help manage symptoms of PCOS and prevent recurrence:')
-st.write('- Eating a healthy, balanced diet')
-st.write('- Engaging in regular physical activity')
-st.write('- Maintaining a healthy weight')
-st.write('- Managing stress levels')
-
-# Disclaimer
-st.write('This PCOS Diagnosis and Treatment Recommendation System provides preliminary insights but is not a substitute for professional medical advice and evaluation.')
+    # Lifestyle change recommendations
+    st.write('In addition to medical treatments, lifestyle changes may help manage symptoms of PCOS and prevent recurrence:')
+    st.write('- Eating a healthy, balanced diet')
+    st.write('- Engaging in regular physical activity')
+    st.write('- Maintaining a healthy weight')
+    st.write('- Managing stress levels')
+    
+    # Disclaimer
+    st.write('This PCOS Diagnosis and Treatment Recommendation System provides preliminary insights but is not a substitute for professional medical advice and evaluation.')
